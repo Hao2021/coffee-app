@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+}
+.banner-img{
+    margin-top: 0px;
+
+}
+
+.banner-img img{
+    width: 100%;
+    height: auto;
+    opacity: 90%;
+}
+
+
+
+@media (max-width: 769px) {
+    .banner-img img {
+        width: auto;
+        height: 100vh;
+    }
+  }
