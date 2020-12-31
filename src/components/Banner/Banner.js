@@ -1,14 +1,15 @@
 import React from 'react';
 import './Banner.css';
+import Coffee from './coffee.jpg';
 const Banner = props => {
 
     return(
         <div className="banner-class">
             <div className="banner-img">
-                <img src="https://assets.beanbox.com/coffee-gifts/v5/1247/world-2020-1.jpg" alt="coffee"/>            
+                <img src={Coffee} alt="coffee"/>            
             </div>
             <div className="banner-img">
-                <img src="https://assets.beanbox.com/coffee-gifts/v5/1247/world-2020-1.jpg" alt="coffee"/>            
+                <img src={Coffee} alt="coffee"/>            
             </div>
         </div>
     );
