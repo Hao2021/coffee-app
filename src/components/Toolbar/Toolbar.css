@@ -5,8 +5,11 @@
   width: 100%;
   /* background: #521751; */
   background: #f1f6f9;
-
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: 56px;
+  z-index: 201;
 }
 
 .toolbar__navigation {

@@ -27,12 +27,11 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
     return (
-      <div style={{height: '100%'}}>
+      <div style={{height: '100%'}} className="app-div">
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <main style={{marginTop: '54px'}}>
-          {/* <p>This is the page content!</p> */}
         <Banner />
 
         </main>
