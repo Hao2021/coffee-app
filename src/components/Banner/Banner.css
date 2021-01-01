@@ -14,6 +14,45 @@
     width: 100%;
     height: auto;
     opacity: 90%;
+    filter: brightness(40%);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Apercu",sans-serif;
+  }
+
+  .centered-btn {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1f6f8b;
+    background-color: #1f6f8b;
+    border-radius: 10%  ;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;  
+    font-family: "Apercu",sans-serif;
+
+    width: 15%;
+  }
+
+.banner1-container{
+  display: grid;
+  grid-template-columns: 30vh 30vh;
+  column-gap: 555px;
+  margin-left: 125px;
+}
+
+.banner-img1 img{
+  width: 816px;
 }
 
 
@@ -27,9 +66,36 @@
 
     
     }
+
+    
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 70%;;
+  }
+
+  .centered-btn {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1f6f8b;
+    background-color: #1f6f8b;
+    border-radius: 10%  ;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;  
+    width: 50%;
+  }
     .banner-img img {
         width: auto;
         height: 100vh;
+
 
     }
   }

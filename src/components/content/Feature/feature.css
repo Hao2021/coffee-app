@@ -1,0 +1,35 @@
+.container{
+    margin-top: 8%;
+    margin-bottom: 10%;
+
+    text-align: center;
+    /* margin-top: 50%; */
+}
+#content-text {
+}
+
+.content-text{
+    margin-top: 3vh;
+}
+
+.content-text button{
+    margin-top: 3vh;
+    background-color: #1f6f8b;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+
+@media (max-width: 769px) {
+    .container{
+        padding: 18px;
+    }
+
+    .content-text button{
+        margin-top: 3vh;
+        background-color: #1f6f8b;
+        color: white;
+        width: 120px;
+        height: 40px;
+    }
+}   

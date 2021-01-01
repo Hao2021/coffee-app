@@ -4,6 +4,8 @@ import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Banner from './components/Banner/Banner';
+import Feature from './components/content/Feature/Feature';
+import Banner1 from './components/Banner/Banner1';
 
 class App extends Component {
   state = {
@@ -31,9 +33,11 @@ class App extends Component {
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <main style={{marginTop: '54px'}}>
+        <main style={{marginTop: '20px'}}>
         <Banner />
-
+        <Feature />
+        {/* <h1 style={{textAlign:'center'}}>hi</h1> */}
+        <Banner1 />
         </main>
         
       </div>
