@@ -6,6 +6,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Banner from './components/Banner/Banner';
 import Feature from './components/content/Feature/Feature';
 import Banner1 from './components/Banner/Banner1';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   state = {
@@ -39,7 +40,7 @@ class App extends Component {
         {/* <h1 style={{textAlign:'center'}}>hi</h1> */}
         <Banner1 />
         </main>
-        
+        <Footer />
       </div>
     );
   }
